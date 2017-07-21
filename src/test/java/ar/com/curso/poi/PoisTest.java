@@ -52,15 +52,15 @@ public class PoisTest {
 		System.out.println("Success!!");
 	}
 
-	@Test
-	public void testDagregarPoi() {
-		System.out.println("TEST 4: agregarPoi");
-		AccionesUsuario.agregarPoi(-34.609811042055554, -58.39261293411255, "Congreso de la Nacion", 10,
-				"Buenos Aires Historico", "Turisticos");
-		Poi poi = PoiHome.findPoiByNombre("Congreso de la Nacion");
-		System.out.println("	" + poi.getX() + " " + poi.getY() + " " + poi.getDescripccion());
-		System.out.println("Success!!");
-	}
+//	@Test
+//	public void testDagregarPoi() {
+//		System.out.println("TEST 4: agregarPoi");
+//		AccionesUsuario.agregarPoi(-34.609811042055554, -58.39261293411255, "Congreso de la Nacion", 10,
+//				"Buenos Aires Historico", "Turisticos");
+//		Poi poi = PoiHome.findPoiByNombre("Congreso de la Nacion");
+//		System.out.println("	" + poi.getX() + " " + poi.getY() + " " + poi.getDescripccion());
+//		System.out.println("Success!!");
+//	}
 	
 	@Test
 	public void testEpoisEnRadioKm() {

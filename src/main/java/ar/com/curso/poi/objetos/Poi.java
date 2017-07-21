@@ -47,12 +47,9 @@ public class Poi implements Comparable<Poi>{
 		this.itinerario = itinerario;
 	}
 
-        @Override
-        public int compareTo(Poi p) {
-            if (this.itinerario < p.itinerario)
-            {return -1;}
-            if (this.itinerario > p.itinerario)
-            {return 1;}
-            return 0;
-        }
+	public int compareTo(Poi o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
